@@ -13,9 +13,14 @@
         <module name="RestTemplate" />
         <module name="feign" />
         <module name="EurekaServer" />
+        <module name="zipkinclient" />
         <module name="EurekaClient" />
+        <module name="zipkinserver" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zipkin" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -27,6 +32,9 @@
       <module name="feign" options="-parameters" />
       <module name="hystrix" options="-parameters" />
       <module name="springCloud" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zipkinclient" options="-parameters" />
+      <module name="zipkinserver" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

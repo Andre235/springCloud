@@ -17,6 +17,8 @@
         <module>Ribbon</module>
         <module>feign</module>
         <module>hystrix</module>
+        <module>zipkinclient</module>
+        <module>zipkinserver</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
